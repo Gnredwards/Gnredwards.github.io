@@ -25,24 +25,7 @@ app {
         border-bottom: 1px solid #d6d5d5;
     }
 
-.sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-}
 
-    .sidebar .top-row {
-        background-color: rgba(0,0,0,0.4);
-    }
-
-    .sidebar .navbar-brand {
-        font-size: 1.1rem;
-    }
-
-    .sidebar .oi {
-        width: 2rem;
-        font-size: 1.1rem;
-        vertical-align: text-top;
-        top: -2px;
-    }
 .nav-button {
         font-size: 0.9rem;
         padding-right: 0.5rem;
@@ -89,6 +72,20 @@ app {
 .navbar-toggler {
     background-color: rgba(255, 255, 255, 0.1);
 }
+.collapse{
+    display: none;
+}
+.uncollapse{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    display: block;
+}
+.menudropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
 
 @media (max-width: 767.98px) {
     .main .top-row {
@@ -104,13 +101,6 @@ app {
         flex-direction: row;
     }
 
-    .sidebar {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-    }
-
     .main .top-row {
         position: sticky;
         top: 0;
@@ -124,10 +114,8 @@ app {
     .navbar-toggler {
         display: none;
     }
-
-    .sidebar .collapse {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
+    .menudropdown{
+        display: none;
     }
 }
 
