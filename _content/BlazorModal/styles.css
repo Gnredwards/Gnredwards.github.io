@@ -30,6 +30,10 @@
     border: 1px solid #fff;
     padding: 1.5rem;
     z-index: 4;
+    max-height: 80%;
+    flex: 1 1 auto;
+    overflow: auto;
+    overflow-y: auto;
 }
 
 .bm-header {
