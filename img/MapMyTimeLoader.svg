@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg"
+   viewBox="0,0,700,700"
+   style="font: 10px sans-serif; user-select: none;"
+   version="1.1"
+   sodipodi:docname="MapMyTimeLoaderEdited.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs134" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview132"
+     showgrid="false"
+     inkscape:zoom="0.95428571"
+     inkscape:cx="372.00598"
+     inkscape:cy="360.53513"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg" />
+  <style
+     type="text/css"
+     id="style13"><![CDATA[
+      .link {
+         fill: none;
+         stroke: #a1d7ce;
+         stroke-width: 1.5px;
+         cursor: grab;
+         stroke-opacity: 0.8;
+      }
+      .standardNode {
+         display: flex;
+      }
+      .animated {
+         animation-duration: 1s;
+         animation-name: appear;         
+         visibility: hidden;
+         animation-fill-mode: forwards;
+      }
+      .animated1 {
+         animation-delay: 1s;
+      }
+      .animated2 {
+         animation-delay: 2s;
+      }
+      .animated3 {
+         animation-delay: 3s;
+      }
+      .animated4 {
+         animation-delay: 4s;
+      }
+      .animated5 {
+         animation-delay: 5s;
+      }
+     
+      .spinner {
+         animation: rotate 2s linear infinite;
+         z-index: 2;
+      }
+      .path {
+         stroke: black;
+         stroke-linecap: round;
+         animation: dash 1.5s ease-in-out infinite;
+      }
+      @keyframes appear {
+         0% {
+            opacity: 0;
+         }
+         100% {
+            visibility: visible;
+            opacity: 1;
+         }
+      }
+     
+      @keyframes rotate {
+         100% {
+            transform: rotate(360deg);
+         }
+      }
+
+      @keyframes dash {
+         0% {
+            stroke-dasharray: 1, 150;
+            stroke-dashoffset: 0;
+         }
+         50% {
+            stroke-dasharray: 90, 150;
+            stroke-dashoffset: -35;
+         }
+         100% {
+            stroke-dasharray: 90, 150;
+            stroke-dashoffset: -124;
+         }
+      }
+
+      ]]></style>
+   <g transform="translate(315,170)">
+      <g id="circle" class="spinner">
+         <g transform="translate(-25,-25)">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+         </g>
+      </g>
+   </g>
+  <g
+     fill="none"
+     width="100%"
+     height="100%"
+     id="topGroup"
+     class="topGroup"
+     transform="translate(0,0) scale(1)">
+    <g
+       id="linkgroup"
+       class="glink">
+      <path
+         class="link"
+         id="link-0-1" />
+      <path
+         id="link-1-2"
+         d="m 309.11328,292.61978 c 5.48689,0 5.48689,-43.84512 10.97379,-43.84512"
+         class="link animated animated1" />
+      <path
+         class="link animated animated2"
+         id="link-1-3"
+         d="M346.132324,303.6186C364.97984299999996,303.6186,364.97984299999996,260.2222,383.827362,260.2222" />
+      <path
+         class="link animated animated3"
+         id="link-1-4"
+         d="M309.113281,314.6174C315.59777799999995,314.6174,315.59777799999995,351.4792,322.082275,351.4792" />
+      <path
+         class="link animated animated4"
+         id="link-1-5"
+         d="M272.0942,303.6186C260.2300225,303.6186,260.2300225,308.631683,248.365845,308.631683" />
+      <path
+         class="link animated animated5"
+         id="link-1-6"
+         d="M346.132324,303.6186C364.97984299999996,303.6186,364.97984299999996,290.150757,383.827362,290.150757" />
+    </g>
+    <g
+       id="nodegroup">
+      <g
+         transform="translate(272.0942,292.619781)"
+         fill-opacity="1"
+         stroke-opacity="1"
+         id="node1"
+         fill="#FF6C89"
+         class="standardNode">
+        <rect
+           id="rectid1"
+           class="noderect"
+           width="74.0381241"
+           height="21.9976177"
+           rx="2"
+           ry="2"
+           stroke="#cce9e5" />
+        <text
+           transform="translate(3,13)"
+           id="text57"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve">Map My Time</text>
+      </g>
+      <g
+         transform="translate(275.087067,227.774658)"
+         fill-opacity="1"
+         stroke-opacity="1"
+         id="node2"
+         fill="#FBAE3C"
+         cursor="pointer"
+         class="standardNode animated animated1">
+        <rect
+           id="rectid2"
+           class="noderect"
+           width="90"
+           height="21"
+           rx="2"
+           ry="2"
+           stroke="#cce9e5" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="text53"
+           transform="translate(3,13)">Click to create</text>
+      </g>
+      <g
+         transform="translate(383.82736217382813,249.72219874023438)"
+         fill-opacity="1"
+         stroke-opacity="1"
+         id="node3"
+         fill="#3BD7C2"
+         cursor="pointer"
+         class="standardNode animated animated2">
+        <rect
+           id="rectid3"
+           class="noderect"
+           width="90"
+           height="21"
+           rx="2"
+           ry="2"
+           stroke="#cce9e5" />
+        <text
+           transform="translate(3,13)"
+           id="text50"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve">Drag to position</text>
+      </g>
+      <g
+         transform="translate(277.08227528515624,351.47918680078124)"
+         fill-opacity="1"
+         stroke-opacity="1"
+         id="node4"
+         fill="#FD4DB0"
+         cursor="pointer"
+         class="standardNode animated animated3">
+        <rect
+           id="rectid4"
+           class="noderect"
+           width="90"
+           height="32"
+           rx="2"
+           ry="2"
+           stroke="#cce9e5" />
+        <text
+           transform="translate(3,13)"
+           id="text40"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve">Drag links to</text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="text48"
+           transform="translate(3,23)">swap parents</text>
+      </g>
+      <g
+         transform="translate(158.365845,287.631683)"
+         fill-opacity="1"
+         stroke-opacity="1"
+         id="node5"
+         fill="#E7F152"
+         cursor="pointer"
+         class="standardNode animated animated4">
+        <rect
+           id="rectid5"
+           class="noderect"
+           width="90"
+           height="42"
+           rx="2"
+           ry="2"
+           stroke="#cce9e5" />
+        <text
+           transform="translate(3,17)"
+           id="text30"
+           style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve">Change size </text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="text37"
+           transform="translate(3,33)">and colour</text>
+      </g>
+      <g
+         transform="translate(383.827362,279.650757)"
+         fill-opacity="1"
+         stroke-opacity="1"
+         id="node6"
+         fill="#3BD7C2"
+         cursor="pointer"
+         class="standardNode animated animated5">
+        <rect
+           id="rectid6"
+           class="noderect"
+           width="90"
+           height="21"
+           rx="2"
+           ry="2"
+           stroke="#cce9e5" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="text39"
+           transform="translate(3,13)">Quick and easy</text>
+      </g>
+    </g>
+  </g>
+</svg>
