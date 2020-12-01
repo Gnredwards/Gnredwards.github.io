@@ -1,9 +1,0 @@
-{
-    "BlazorWebsiteURL": "https://www.mapmytime.com",
-    "AzureFunctionAuthURL": "https://mapmytimeauth.azurewebsites.net",
-    "AuthMeEndpoint": "/.auth/me",
-    "LogOutEndpoint": "/.auth/logout",
-    "TwitterEndpoint": "/.auth/login/twitter",
-    "PostloginRedirect": "?post_login_redirect_url=",
-    "LoginMode": "&session_mode=token"
-}
