@@ -5,7 +5,7 @@
     <meta name="Description" content="Mind Maps and note taking">
     <meta name="viewport" content="width=device-width">
     <title>MapMyTime</title>
-    <base href="./" />
+    <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/site.min.css" rel="stylesheet" />
     <link rel="manifest" href="manifest.json">
@@ -31,311 +31,292 @@
 </head>
 
 <body>
-  <app>
-    <svg
-   id="svg"
-   viewBox="0,0,700,700"
-   style="font: 10px sans-serif; user-select: none;">
-  <style
-     type="text/css"
-     id="style13"><![CDATA[
-      .link {
-         fill: none;
-         stroke: #a1d7ce;
-         stroke-width: 1.5px;
-         cursor: grab;
-         stroke-opacity: 0.8;
-      }
-      .standardNode {
-         display: flex;
-      }
-      .animated {
-         animation-duration: 1s;
-         animation-name: appear;         
-         visibility: hidden;
-         animation-fill-mode: forwards;
-      }
-      .animated1 {
-         animation-delay: 1s;
-      }
-      .animated2 {
-         animation-delay: 2s;
-      }
-      .animated3 {
-         animation-delay: 3s;
-      }
-      .animated4 {
-         animation-delay: 4s;
-      }
-      .animated5 {
-         animation-delay: 5s;
-      }
-     
-      .spinner {
-         animation: rotate 2s linear infinite;
-         z-index: 2;
-      }
-      .path {
-         stroke: black;
-         stroke-linecap: round;
-         animation: dash 1.5s ease-in-out infinite;
-      }
-      @keyframes appear {
-         0% {
-            opacity: 0;
-         }
-         100% {
-            visibility: visible;
-            opacity: 1;
-         }
-      }
-     
-      @keyframes rotate {
-         100% {
-            transform: rotate(360deg);
-         }
-      }
+    <app>
+        <svg id="svg"
+             viewBox="0,0,700,700"
+             style="font: 10px sans-serif; user-select: none;">
+            <style type="text/css" id="style13">
+                <![CDATA[
+                .link {
+                    fill: none;
+                    stroke: #a1d7ce;
+                    stroke-width: 1.5px;
+                    cursor: grab;
+                    stroke-opacity: 0.8;
+                }
 
-      @keyframes dash {
-         0% {
-            stroke-dasharray: 1, 150;
-            stroke-dashoffset: 0;
-         }
-         50% {
-            stroke-dasharray: 90, 150;
-            stroke-dashoffset: -35;
-         }
-         100% {
-            stroke-dasharray: 90, 150;
-            stroke-dashoffset: -124;
-         }
-      }
+                .standardNode {
+                    display: flex;
+                }
 
-      ]]></style>
-   <g transform="translate(315,170)">
-      <g id="circle" class="spinner">
-         <g transform="translate(-25,-25)">
-            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
-         </g>
-      </g>
-   </g>
-  <g
-     fill="none"
-     width="100%"
-     height="100%"
-     id="topGroup"
-     class="topGroup"
-     transform="translate(0,0) scale(1)">
-    <g
-       id="linkgroup"
-       class="glink">
-      <path
-         class="link"
-         id="link-0-1" />
-      <path
-         id="link-1-2"
-         d="m 309.11328,292.61978 c 5.48689,0 5.48689,-43.84512 10.97379,-43.84512"
-         class="link animated animated1" />
-      <path
-         class="link animated animated2"
-         id="link-1-3"
-         d="M346.132324,303.6186C364.97984299999996,303.6186,364.97984299999996,260.2222,383.827362,260.2222" />
-      <path
-         class="link animated animated3"
-         id="link-1-4"
-         d="M309.113281,314.6174C315.59777799999995,314.6174,315.59777799999995,351.4792,322.082275,351.4792" />
-      <path
-         class="link animated animated4"
-         id="link-1-5"
-         d="M272.0942,303.6186C260.2300225,303.6186,260.2300225,308.631683,248.365845,308.631683" />
-      <path
-         class="link animated animated5"
-         id="link-1-6"
-         d="M346.132324,303.6186C364.97984299999996,303.6186,364.97984299999996,290.150757,383.827362,290.150757" />
-    </g>
-    <g
-       id="nodegroup">
-      <g
-         transform="translate(272.0942,292.619781)"
-         fill-opacity="1"
-         stroke-opacity="1"
-         id="node1"
-         fill="#FF6C89"
-         class="standardNode">
-        <rect
-           id="rectid1"
-           class="noderect"
-           width="74.0381241"
-           height="21.9976177"
-           rx="2"
-           ry="2"
-           stroke="#cce9e5" />
-        <text
-           transform="translate(3,13)"
-           id="text57"
-           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           xml:space="preserve">Map My Time</text>
-      </g>
-      <g
-         transform="translate(275.087067,227.774658)"
-         fill-opacity="1"
-         stroke-opacity="1"
-         id="node2"
-         fill="#FBAE3C"
-         cursor="pointer"
-         class="standardNode animated animated1">
-        <rect
-           id="rectid2"
-           class="noderect"
-           width="90"
-           height="21"
-           rx="2"
-           ry="2"
-           stroke="#cce9e5" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           id="text53"
-           transform="translate(3,13)">Click to create</text>
-      </g>
-      <g
-         transform="translate(383.82736217382813,249.72219874023438)"
-         fill-opacity="1"
-         stroke-opacity="1"
-         id="node3"
-         fill="#3BD7C2"
-         cursor="pointer"
-         class="standardNode animated animated2">
-        <rect
-           id="rectid3"
-           class="noderect"
-           width="90"
-           height="21"
-           rx="2"
-           ry="2"
-           stroke="#cce9e5" />
-        <text
-           transform="translate(3,13)"
-           id="text50"
-           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           xml:space="preserve">Drag to position</text>
-      </g>
-      <g
-         transform="translate(277.08227528515624,351.47918680078124)"
-         fill-opacity="1"
-         stroke-opacity="1"
-         id="node4"
-         fill="#FD4DB0"
-         cursor="pointer"
-         class="standardNode animated animated3">
-        <rect
-           id="rectid4"
-           class="noderect"
-           width="90"
-           height="32"
-           rx="2"
-           ry="2"
-           stroke="#cce9e5" />
-        <text
-           transform="translate(3,13)"
-           id="text40"
-           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           xml:space="preserve">Drag links to</text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           id="text48"
-           transform="translate(3,23)">swap parents</text>
-      </g>
-      <g
-         transform="translate(158.365845,287.631683)"
-         fill-opacity="1"
-         stroke-opacity="1"
-         id="node5"
-         fill="#E7F152"
-         cursor="pointer"
-         class="standardNode animated animated4">
-        <rect
-           id="rectid5"
-           class="noderect"
-           width="90"
-           height="42"
-           rx="2"
-           ry="2"
-           stroke="#cce9e5" />
-        <text
-           transform="translate(3,17)"
-           id="text30"
-           style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           xml:space="preserve">Change size </text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           id="text37"
-           transform="translate(3,33)">and colour</text>
-      </g>
-      <g
-         transform="translate(383.827362,279.650757)"
-         fill-opacity="1"
-         stroke-opacity="1"
-         id="node6"
-         fill="#3BD7C2"
-         cursor="pointer"
-         class="standardNode animated animated5">
-        <rect
-           id="rectid6"
-           class="noderect"
-           width="90"
-           height="21"
-           rx="2"
-           ry="2"
-           stroke="#cce9e5" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           id="text39"
-           transform="translate(3,13)">Quick and easy</text>
-      </g>
-    </g>
-  </g>
-</svg>
-  </app>
-  <!-- Start Single Page Apps for GitHub Pages -->
-  <script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script checks to see if a redirect is present in the query string
-    // and converts it back into the correct url and adds it to the
-    // browser's history using window.history.replaceState(...),
-    // which won't cause the browser to attempt to load the new url.
-    // When the single page app is loaded further down in this file,
-    // the correct url will be waiting in the browser's history for
-    // the single page app to route accordingly.
-    (function (l) {
-      if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function (v) {
-          var a = v.split('=');
-          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-        });
-        if (q.p !== undefined) {
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + (q.p || '') +
-            (q.q ? ('?' + q.q) : '') +
-            l.hash
-          );
-        }
-      }
-    }(window.location))
-  </script>
-  <script src="js/d3.min.js"></script>
-  <script src="_framework/blazor.webassembly.js"></script>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>  
-  <script src="js/site.min.js"></script>
-  <script src="js/jsauthentication.js"></script>
+                .animated {
+                    animation-duration: 1s;
+                    animation-name: appear;
+                    visibility: hidden;
+                    animation-fill-mode: forwards;
+                }
+
+                .animated1 {
+                    animation-delay: 1s;
+                }
+
+                .animated2 {
+                    animation-delay: 2s;
+                }
+
+                .animated3 {
+                    animation-delay: 3s;
+                }
+
+                .animated4 {
+                    animation-delay: 4s;
+                }
+
+                .animated5 {
+                    animation-delay: 5s;
+                }
+
+                .spinner {
+                    animation: rotate 2s linear infinite;
+                    z-index: 2;
+                }
+
+                .path {
+                    stroke: black;
+                    stroke-linecap: round;
+                    animation: dash 1.5s ease-in-out infinite;
+                }
+
+                @keyframes appear {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    100% {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+
+                @keyframes rotate {
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+
+                @keyframes dash {
+                    0% {
+                        stroke-dasharray: 1, 150;
+                        stroke-dashoffset: 0;
+                    }
+
+                    50% {
+                        stroke-dasharray: 90, 150;
+                        stroke-dashoffset: -35;
+                    }
+
+                    100% {
+                        stroke-dasharray: 90, 150;
+                        stroke-dashoffset: -124;
+                    }
+                }
+                ]]>
+            </style>
+            <g transform="translate(315,170)">
+                <g id="circle" class="spinner">
+                    <g transform="translate(-25,-25)">
+                        <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+                    </g>
+                </g>
+            </g>
+            <g fill="none"
+               width="100%"
+               height="100%"
+               id="topGroup"
+               class="topGroup"
+               transform="translate(0,0) scale(1)">
+                <g id="linkgroup"
+                   class="glink">
+                    <path class="link"
+                          id="link-0-1" />
+                    <path id="link-1-2"
+                          d="m 309.11328,292.61978 c 5.48689,0 5.48689,-43.84512 10.97379,-43.84512"
+                          class="link animated animated1" />
+                    <path class="link animated animated2"
+                          id="link-1-3"
+                          d="M346.132324,303.6186C364.97984299999996,303.6186,364.97984299999996,260.2222,383.827362,260.2222" />
+                    <path class="link animated animated3"
+                          id="link-1-4"
+                          d="M309.113281,314.6174C315.59777799999995,314.6174,315.59777799999995,351.4792,322.082275,351.4792" />
+                    <path class="link animated animated4"
+                          id="link-1-5"
+                          d="M272.0942,303.6186C260.2300225,303.6186,260.2300225,308.631683,248.365845,308.631683" />
+                    <path class="link animated animated5"
+                          id="link-1-6"
+                          d="M346.132324,303.6186C364.97984299999996,303.6186,364.97984299999996,290.150757,383.827362,290.150757" />
+                </g>
+                <g id="nodegroup">
+                    <g transform="translate(272.0942,292.619781)"
+                       fill-opacity="1"
+                       stroke-opacity="1"
+                       id="node1"
+                       fill="#FF6C89"
+                       class="standardNode">
+                        <rect id="rectid1"
+                              class="noderect"
+                              width="74.0381241"
+                              height="21.9976177"
+                              rx="2"
+                              ry="2"
+                              stroke="#cce9e5" />
+                        <text transform="translate(3,13)"
+                              id="text57"
+                              style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              xml:space="preserve">Map My Time</text>
+                    </g>
+                    <g transform="translate(275.087067,227.774658)"
+                       fill-opacity="1"
+                       stroke-opacity="1"
+                       id="node2"
+                       fill="#FBAE3C"
+                       cursor="pointer"
+                       class="standardNode animated animated1">
+                        <rect id="rectid2"
+                              class="noderect"
+                              width="90"
+                              height="21"
+                              rx="2"
+                              ry="2"
+                              stroke="#cce9e5" />
+                        <text xml:space="preserve"
+                              style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              id="text53"
+                              transform="translate(3,13)">Click to create</text>
+                    </g>
+                    <g transform="translate(383.82736217382813,249.72219874023438)"
+                       fill-opacity="1"
+                       stroke-opacity="1"
+                       id="node3"
+                       fill="#3BD7C2"
+                       cursor="pointer"
+                       class="standardNode animated animated2">
+                        <rect id="rectid3"
+                              class="noderect"
+                              width="90"
+                              height="21"
+                              rx="2"
+                              ry="2"
+                              stroke="#cce9e5" />
+                        <text transform="translate(3,13)"
+                              id="text50"
+                              style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              xml:space="preserve">Drag to position</text>
+                    </g>
+                    <g transform="translate(277.08227528515624,351.47918680078124)"
+                       fill-opacity="1"
+                       stroke-opacity="1"
+                       id="node4"
+                       fill="#FD4DB0"
+                       cursor="pointer"
+                       class="standardNode animated animated3">
+                        <rect id="rectid4"
+                              class="noderect"
+                              width="90"
+                              height="32"
+                              rx="2"
+                              ry="2"
+                              stroke="#cce9e5" />
+                        <text transform="translate(3,13)"
+                              id="text40"
+                              style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              xml:space="preserve">Drag links to</text>
+                        <text xml:space="preserve"
+                              style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              id="text48"
+                              transform="translate(3,23)">swap parents</text>
+                    </g>
+                    <g transform="translate(158.365845,287.631683)"
+                       fill-opacity="1"
+                       stroke-opacity="1"
+                       id="node5"
+                       fill="#E7F152"
+                       cursor="pointer"
+                       class="standardNode animated animated4">
+                        <rect id="rectid5"
+                              class="noderect"
+                              width="90"
+                              height="42"
+                              rx="2"
+                              ry="2"
+                              stroke="#cce9e5" />
+                        <text transform="translate(3,17)"
+                              id="text30"
+                              style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              xml:space="preserve">Change size </text>
+                        <text xml:space="preserve"
+                              style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              id="text37"
+                              transform="translate(3,33)">and colour</text>
+                    </g>
+                    <g transform="translate(383.827362,279.650757)"
+                       fill-opacity="1"
+                       stroke-opacity="1"
+                       id="node6"
+                       fill="#3BD7C2"
+                       cursor="pointer"
+                       class="standardNode animated animated5">
+                        <rect id="rectid6"
+                              class="noderect"
+                              width="90"
+                              height="21"
+                              rx="2"
+                              ry="2"
+                              stroke="#cce9e5" />
+                        <text xml:space="preserve"
+                              style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                              id="text39"
+                              transform="translate(3,13)">Quick and easy</text>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </app>
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages
+        // https://github.com/rafrex/spa-github-pages
+        // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+        // ----------------------------------------------------------------------
+        // This script checks to see if a redirect is present in the query string
+        // and converts it back into the correct url and adds it to the
+        // browser's history using window.history.replaceState(...),
+        // which won't cause the browser to attempt to load the new url.
+        // When the single page app is loaded further down in this file,
+        // the correct url will be waiting in the browser's history for
+        // the single page app to route accordingly.
+        (function (l) {
+            if (l.search) {
+                var q = {};
+                l.search.slice(1).split('&').forEach(function (v) {
+                    var a = v.split('=');
+                    q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+                });
+                if (q.p !== undefined) {
+                    window.history.replaceState(null, null,
+                        l.pathname.slice(0, -1) + (q.p || '') +
+                        (q.q ? ('?' + q.q) : '') +
+                        l.hash
+                    );
+                }
+            }
+        }(window.location))
+    </script>
+    <script src="js/d3.min.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+    <script src="js/site.min.js"></script>
+
 </body>
 
 </html>
