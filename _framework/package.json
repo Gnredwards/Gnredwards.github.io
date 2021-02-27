@@ -1,5 +1,16 @@
-﻿{
+{
   "name": "app",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "merge-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-terser": "^2.0.1"
+  }
 }
