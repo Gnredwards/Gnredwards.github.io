@@ -1,8 +1,8 @@
 [
   {
-    "outputFileName": "wwwroot/css/site.min.css",
+    "outputFileName": "wwwroot/js/decode.min.js",
     "inputFiles": [
-      "wwwroot/css/site.css"
+      "wwwroot/js/decode.js"
     ]
   },
   {
